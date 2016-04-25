@@ -102,7 +102,7 @@
 
 - (void)pan:(UIPanGestureRecognizer *)pan
 {
-#warning 移动控件位置
+#pragma mark-- 移动控件位置
     // 获取手指偏移量
     CGPoint transP = [pan translationInView:self];
     
@@ -117,7 +117,7 @@
     // 复位
     [pan setTranslation:CGPointZero inView:self];
     
-#warning 设置小圆半径
+#pragma mark-- 设置小圆半径
     // 显示后面圆，后面圆的半径，随着两个圆心的距离不断增加而减小。
     // 计算圆心距离
     CGFloat d = [self circleCenterDistanceWithBigCircleCenter:self.center smallCircleCenter:self.smallCircleView.center];
@@ -130,7 +130,7 @@
     
     self.smallCircleView.layer.cornerRadius = smallRadius;
     
-#warning 描述不规则矩形
+#pragma mark-- 描述不规则矩形
     
     // 当圆心距离大于最大圆心距离
     if (d > kMaxDistance) { // 可以拖出来
@@ -148,7 +148,7 @@
     }
     
     
-#warning 手指抬起的时候，还原
+#pragma mark-- 手指抬起的时候，还原
     if (pan.state == UIGestureRecognizerStateEnded) {
         
         // 当圆心距离大于最大圆心距离
