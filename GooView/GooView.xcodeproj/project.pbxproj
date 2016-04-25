@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3083D91CCE506A00C37F3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3083D81CCE506A00C37F3F /* main.m */; };
+		CF3083DC1CCE506A00C37F3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3083DB1CCE506A00C37F3F /* AppDelegate.m */; };
+		CF3083DF1CCE506A00C37F3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3083DE1CCE506A00C37F3F /* ViewController.m */; };
+		CF3083E21CCE506A00C37F3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3083E01CCE506A00C37F3F /* Main.storyboard */; };
+		CF3083E41CCE506A00C37F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3083E31CCE506A00C37F3F /* Assets.xcassets */; };
+		CF3083E71CCE506A00C37F3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3083E51CCE506A00C37F3F /* LaunchScreen.storyboard */; };
+		CF3083F21CCE506A00C37F3F /* GooViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3083F11CCE506A00C37F3F /* GooViewTests.m */; };
+		CF3083FD1CCE506A00C37F3F /* GooViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3083FC1CCE506A00C37F3F /* GooViewUITests.m */; };
+		CF30840C1CCE509F00C37F3F /* GooView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF30840B1CCE509F00C37F3F /* GooView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF3083EE1CCE506A00C37F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3083CC1CCE506A00C37F3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3083D31CCE506A00C37F3F;
+			remoteInfo = GooView;
+		};
+		CF3083F91CCE506A00C37F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3083CC1CCE506A00C37F3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3083D31CCE506A00C37F3F;
+			remoteInfo = GooView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF3083D41CCE506A00C37F3F /* GooView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3083D81CCE506A00C37F3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF3083DA1CCE506A00C37F3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF3083DB1CCE506A00C37F3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF3083DD1CCE506A00C37F3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF3083DE1CCE506A00C37F3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF3083E11CCE506A00C37F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF3083E31CCE506A00C37F3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3083E61CCE506A00C37F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF3083E81CCE506A00C37F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3083ED1CCE506A00C37F3F /* GooViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3083F11CCE506A00C37F3F /* GooViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooViewTests.m; sourceTree = "<group>"; };
+		CF3083F31CCE506A00C37F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3083F81CCE506A00C37F3F /* GooViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3083FC1CCE506A00C37F3F /* GooViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooViewUITests.m; sourceTree = "<group>"; };
+		CF3083FE1CCE506A00C37F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF30840A1CCE509F00C37F3F /* GooView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooView.h; sourceTree = "<group>"; };
+		CF30840B1CCE509F00C37F3F /* GooView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3083D11CCE506A00C37F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3083EA1CCE506A00C37F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3083F51CCE506A00C37F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3083CB1CCE506A00C37F3F = {
+			isa = PBXGroup;
+			children = (
+				CF3083D61CCE506A00C37F3F /* GooView */,
+				CF3083F01CCE506A00C37F3F /* GooViewTests */,
+				CF3083FB1CCE506A00C37F3F /* GooViewUITests */,
+				CF3083D51CCE506A00C37F3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3083D51CCE506A00C37F3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3083D41CCE506A00C37F3F /* GooView.app */,
+				CF3083ED1CCE506A00C37F3F /* GooViewTests.xctest */,
+				CF3083F81CCE506A00C37F3F /* GooViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3083D61CCE506A00C37F3F /* GooView */ = {
+			isa = PBXGroup;
+			children = (
+				CF3083DA1CCE506A00C37F3F /* AppDelegate.h */,
+				CF3083DB1CCE506A00C37F3F /* AppDelegate.m */,
+				CF3083DD1CCE506A00C37F3F /* ViewController.h */,
+				CF3083DE1CCE506A00C37F3F /* ViewController.m */,
+				CF3083E01CCE506A00C37F3F /* Main.storyboard */,
+				CF3083E31CCE506A00C37F3F /* Assets.xcassets */,
+				CF3083E51CCE506A00C37F3F /* LaunchScreen.storyboard */,
+				CF3083E81CCE506A00C37F3F /* Info.plist */,
+				CF3083D71CCE506A00C37F3F /* Supporting Files */,
+				CF30840A1CCE509F00C37F3F /* GooView.h */,
+				CF30840B1CCE509F00C37F3F /* GooView.m */,
+			);
+			path = GooView;
+			sourceTree = "<group>";
+		};
+		CF3083D71CCE506A00C37F3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF3083D81CCE506A00C37F3F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF3083F01CCE506A00C37F3F /* GooViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3083F11CCE506A00C37F3F /* GooViewTests.m */,
+				CF3083F31CCE506A00C37F3F /* Info.plist */,
+			);
+			path = GooViewTests;
+			sourceTree = "<group>";
+		};
+		CF3083FB1CCE506A00C37F3F /* GooViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3083FC1CCE506A00C37F3F /* GooViewUITests.m */,
+				CF3083FE1CCE506A00C37F3F /* Info.plist */,
+			);
+			path = GooViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3083D31CCE506A00C37F3F /* GooView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3084011CCE506A00C37F3F /* Build configuration list for PBXNativeTarget "GooView" */;
+			buildPhases = (
+				CF3083D01CCE506A00C37F3F /* Sources */,
+				CF3083D11CCE506A00C37F3F /* Frameworks */,
+				CF3083D21CCE506A00C37F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooView;
+			productName = GooView;
+			productReference = CF3083D41CCE506A00C37F3F /* GooView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF3083EC1CCE506A00C37F3F /* GooViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3084041CCE506A00C37F3F /* Build configuration list for PBXNativeTarget "GooViewTests" */;
+			buildPhases = (
+				CF3083E91CCE506A00C37F3F /* Sources */,
+				CF3083EA1CCE506A00C37F3F /* Frameworks */,
+				CF3083EB1CCE506A00C37F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3083EF1CCE506A00C37F3F /* PBXTargetDependency */,
+			);
+			name = GooViewTests;
+			productName = GooViewTests;
+			productReference = CF3083ED1CCE506A00C37F3F /* GooViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF3083F71CCE506A00C37F3F /* GooViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3084071CCE506A00C37F3F /* Build configuration list for PBXNativeTarget "GooViewUITests" */;
+			buildPhases = (
+				CF3083F41CCE506A00C37F3F /* Sources */,
+				CF3083F51CCE506A00C37F3F /* Frameworks */,
+				CF3083F61CCE506A00C37F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3083FA1CCE506A00C37F3F /* PBXTargetDependency */,
+			);
+			name = GooViewUITests;
+			productName = GooViewUITests;
+			productReference = CF3083F81CCE506A00C37F3F /* GooViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3083CC1CCE506A00C37F3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF3083D31CCE506A00C37F3F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF3083EC1CCE506A00C37F3F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF3083D31CCE506A00C37F3F;
+					};
+					CF3083F71CCE506A00C37F3F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF3083D31CCE506A00C37F3F;
+					};
+				};
+			};
+			buildConfigurationList = CF3083CF1CCE506A00C37F3F /* Build configuration list for PBXProject "GooView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF3083CB1CCE506A00C37F3F;
+			productRefGroup = CF3083D51CCE506A00C37F3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3083D31CCE506A00C37F3F /* GooView */,
+				CF3083EC1CCE506A00C37F3F /* GooViewTests */,
+				CF3083F71CCE506A00C37F3F /* GooViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3083D21CCE506A00C37F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3083E71CCE506A00C37F3F /* LaunchScreen.storyboard in Resources */,
+				CF3083E41CCE506A00C37F3F /* Assets.xcassets in Resources */,
+				CF3083E21CCE506A00C37F3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3083EB1CCE506A00C37F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3083F61CCE506A00C37F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3083D01CCE506A00C37F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF30840C1CCE509F00C37F3F /* GooView.m in Sources */,
+				CF3083DF1CCE506A00C37F3F /* ViewController.m in Sources */,
+				CF3083DC1CCE506A00C37F3F /* AppDelegate.m in Sources */,
+				CF3083D91CCE506A00C37F3F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3083E91CCE506A00C37F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3083F21CCE506A00C37F3F /* GooViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3083F41CCE506A00C37F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3083FD1CCE506A00C37F3F /* GooViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF3083EF1CCE506A00C37F3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3083D31CCE506A00C37F3F /* GooView */;
+			targetProxy = CF3083EE1CCE506A00C37F3F /* PBXContainerItemProxy */;
+		};
+		CF3083FA1CCE506A00C37F3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3083D31CCE506A00C37F3F /* GooView */;
+			targetProxy = CF3083F91CCE506A00C37F3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF3083E01CCE506A00C37F3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3083E11CCE506A00C37F3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF3083E51CCE506A00C37F3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3083E61CCE506A00C37F3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3083FF1CCE506A00C37F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF3084001CCE506A00C37F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF3084021CCE506A00C37F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GooView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.GooView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF3084031CCE506A00C37F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GooView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.GooView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF3084051CCE506A00C37F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GooViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.GooViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooView.app/GooView";
+			};
+			name = Debug;
+		};
+		CF3084061CCE506A00C37F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GooViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.GooViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooView.app/GooView";
+			};
+			name = Release;
+		};
+		CF3084081CCE506A00C37F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GooViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.GooViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GooView;
+			};
+			name = Debug;
+		};
+		CF3084091CCE506A00C37F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GooViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.GooViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GooView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3083CF1CCE506A00C37F3F /* Build configuration list for PBXProject "GooView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3083FF1CCE506A00C37F3F /* Debug */,
+				CF3084001CCE506A00C37F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3084011CCE506A00C37F3F /* Build configuration list for PBXNativeTarget "GooView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3084021CCE506A00C37F3F /* Debug */,
+				CF3084031CCE506A00C37F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF3084041CCE506A00C37F3F /* Build configuration list for PBXNativeTarget "GooViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3084051CCE506A00C37F3F /* Debug */,
+				CF3084061CCE506A00C37F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF3084071CCE506A00C37F3F /* Build configuration list for PBXNativeTarget "GooViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3084081CCE506A00C37F3F /* Debug */,
+				CF3084091CCE506A00C37F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3083CC1CCE506A00C37F3F /* Project object */;
+}
